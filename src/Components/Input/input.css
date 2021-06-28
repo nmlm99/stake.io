@@ -1,0 +1,78 @@
+.inputComp_Main_container{
+    margin-top: -30px;
+    background-color: black;
+    color: white;
+    /* overflow: hidden; */
+}
+.inputComp_Main{
+    border-radius: 10px;
+    border: 1px solid green;
+    padding: 10px;
+    font-weight: bolder !important;
+    background-color: rgb(56, 56, 56);
+}
+.withdraw_Class{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large !important;
+}
+.withdraw_Class>button{
+    color: white!important;
+    background-color: green !important;
+}
+.upperBtnPair{
+    display: flex;
+    justify-content: center;
+}
+.upperBtnPair>button{
+    margin-right: 19px;
+    font-family: 'Montserrat', sans-serif;
+}
+.inpo_Main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input_div{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+
+}
+.input_div>input{
+    /* width:fit-content!important; */
+    color: green;
+    padding: 10px;
+    font-weight: bold;
+    font-size: x-large;
+}
+.btnclor{
+    color: white!important;
+    background-color: green !important;
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin-bottom: 20px;
+}
+
+
+
+@media(max-width:770px){
+    .input_div{
+        margin-right: 0;
+    }
+
+}
+
+
+@media(max-width:570px){
+    .input_div>input{
+        color: green;
+        padding: 4px;
+    }
+    .inputComp_Main_container{
+        margin-top: -10px;
+        background-color: black;
+        color: white;
+    }
+}

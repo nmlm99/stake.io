@@ -1,0 +1,40 @@
+/* .appMain{
+    display: flex !important;
+    width: 100vw;
+    flex: 10;
+}
+.appInner1{
+    display: flex;
+    flex: 3;
+}
+.appInner2{
+    display: flex;
+    flex: 9;
+}
+.appInner1_1{
+width: 100%;
+} */
+.fullWidth{
+    width: 100vw !important;
+    background-color: black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+margin: 0;
+padding: 0;
+}
+.bodyy{
+height: 100vh;
+overflow-x: hidden !important;
+overflow:scroll;
+scrollbar-color: black!important;
+}
+
+
+
+    @media(max-width:770px){
+        .sidebar{
+            visibility: hidden;
+            display: none;
+        }
+    
+    }

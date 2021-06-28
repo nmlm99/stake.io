@@ -1,0 +1,54 @@
+.Navbar_Main{
+    width: 100%;
+    background: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Navbar_Main>h1{
+    font-family: 'Montserrat', sans-serif;
+    color: green;
+}
+.Navbar_Main>p{
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+.wallet{
+    width: 100px;
+    margin-left: 10px;
+}
+.wallet0{
+    position: relative;
+    left: 20vw;
+}
+
+
+@media(max-width:980px){
+    .wallet0{
+        position: relative;
+        left: 15vw;
+    }}
+    @media(max-width:884px){
+        .wallet0{
+            position: relative;
+            left: 13vw;
+        }}
+@media(max-width:770px){
+    .Navbar_Main>h1{
+        font-family: 'Montserrat', sans-serif;
+        color: green;
+    }
+    .wallet0{
+        position: relative;
+        left: 8vw;
+    }
+
+    
+
+}
+@media(max-width:424px){
+    .wallet0{
+        position: relative;
+        left: 0vw;
+    }}
