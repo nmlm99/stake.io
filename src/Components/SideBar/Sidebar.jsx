@@ -4,7 +4,7 @@ function Sidebar() {
     return (
         <>
             <div className="sidebar_Main">
-                <h3><span className="piggy"> CHAIN </span>RAIDER</h3>
+                <h3><span className="piggy"> NIRON </span>FINANCE</h3>
                <div className="sidebar_inner">
                <a href="http://">  <i class="fas fa-home"></i>
                     <p>Stake $CHR</p></a> 
