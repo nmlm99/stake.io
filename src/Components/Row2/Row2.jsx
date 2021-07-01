@@ -184,19 +184,19 @@ function Row2() {
                     <div class="row">
                         <div class="col-12 pb-3 col-sm-6 col-md-4">
                             <div className="Row2_innerDiv">
-                                <h4>Total $CHR Stakers</h4>
+                                <h4>Total Stakers</h4>
                                 <h6>{totalmoneystakers}</h6>
                             </div>
                         </div>
                         <div class="col-12 pb-3 col-sm-6 col-md-4">
                             <div className="Row2_innerDiv">
-                                <h4>Total $CHR Staked</h4>
+                                <h4>Total Staked</h4>
                                 <h6>{totalMoneyStaked}</h6>
                             </div>
                         </div>
                         <div class="col-12 pb-3 col-sm-6 col-md-4">
                             <div className="Row2_innerDiv">
-                                <h4> Total $CHR Supply</h4>
+                                <h4> Total Supply</h4>
                                 <h6>{totalSupply}</h6>
                             </div>
                         </div>
@@ -206,15 +206,15 @@ function Row2() {
 
 
                 {/* <div className="Row2_innerDiv">
-                    <h3>$Money Staked</h3>
+                    <h3>$ Staked</h3>
                     <h2>0</h2>
                 </div>
                 <div className="Row2_innerDiv">
-                    <h3>$Money Staked</h3>
+                    <h3>$ Staked</h3>
                     <h2>0</h2>
                 </div>
                 <div className="Row2_innerDiv">
-                    <h3>$Money Staked</h3>
+                    <h3>$ Staked</h3>
                     <h2>0</h2>
                 </div> */}
             </div>

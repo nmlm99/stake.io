@@ -235,7 +235,7 @@ function InputComp() {
                 <div className="inputComp_Main">
                   <div className="withdraw_Class">
                     <h5>Rewards: <span>{rewards}</span> ETH</h5>
-                    <button className="btn " onClick={withdraw}>WithDraw</button>
+                    <button className="btn " onClick={withdraw}>Withdraw</button>
                   </div>
                   <hr />
                   <div className="inpo_Main">
