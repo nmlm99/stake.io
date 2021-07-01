@@ -116,7 +116,7 @@ function NavBar() {
     return (
         <>
            <div className="Navbar_Main">
-            <h1>Stake $CHR</h1>
+            <h1>Stake NIRON</h1>
             <span className=" wallet0">Wallet: </span>
             <span className="wallet text-truncate">{account}</span>
            </div> 
