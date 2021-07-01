@@ -25,6 +25,7 @@ padding: 0;
 .bodyy{
 height: 100vh;
 overflow-x: hidden !important;
+background: #efefef;
 overflow:scroll;
 scrollbar-color: black!important;
 }

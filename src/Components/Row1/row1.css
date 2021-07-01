@@ -1,6 +1,6 @@
 .Row1_Main{
     width: 100%;
-    background: #000;
+    background: #efefef;
     color: #fff;
     /* position: relative;
     left: 16vw; */
@@ -8,12 +8,24 @@
     display: flex;
 }
 .Row1_innerDiv{
-    font-family: 'Montserrat', sans-serif;
-    padding: 4px;
-    /* width: 300px;
-    height: 90px; */
-    border: 1px solid green;
+    font-family: "Montserrat",sans-serif;
+    padding: 15px;
+    border: 0px solid #484848;
     border-radius: 9px;
-    background-color: rgb(56, 56, 56);
-    /* margin-right: 10px; */
+    background-color: #383838;
+    width: 240px;
+    text-align: center;
+    box-shadow: 3px 4px 6px #00000069;
+}
+
+.Row1_innerDiv h4 {
+    font-size: 18px;
+}
+
+.col-12.pb-3.col-sm-6.col-md-4 {
+    width: auto;
+}
+
+.row {
+    justify-content: center;
 }
