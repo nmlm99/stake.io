@@ -167,6 +167,10 @@ scrollbar-color: black!important;
             text-overflow: ellipsis;
             white-space: normal;
             word-break: break-all;
+            font-size: 12px;
+        }
+        .wallet0 {
+            font-size: 12px;
         }
     }
     @media (max-width: 880px) {
