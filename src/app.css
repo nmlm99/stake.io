@@ -162,6 +162,19 @@ scrollbar-color: black!important;
 
     @media (max-width: 880px) {
         span.wallet.text-truncate {
-            max-width: 100px;
+            width: 100px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: normal;
+            word-break: break-all;
         }
+    }
+    @media (max-width: 880px) {
+        .wallet-wrap {
+            max-width: 200px;
+        }
+    }
+
+    .wallet0 {
+        left: 0;
     }
