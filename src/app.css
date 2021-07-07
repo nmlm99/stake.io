@@ -39,3 +39,117 @@ scrollbar-color: black!important;
         }
     
     }
+
+
+    .bodyy {
+        background-image: url(assets/bgniron.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+    }
+
+    .Navbar_Main, .Row1_Main, .Row2_Main {
+        background: transparent;
+    }
+    .Row1_Main, .Row2_Main {
+        padding: 0;
+        
+    }
+    .sidebar_Main {
+        background: linear-gradient(
+    45deg
+    , #481351, #0f0424, #481351);
+    }
+    .sidebar_inner>a {
+        background: #9e0a67;
+    }
+
+    .sidebar_inner>a>p {
+        text-shadow: none;
+    }
+
+    .lastDiv_1>a>p, .lastDiv_1>a>i {
+        color: #fff;
+    }
+
+    .sidebar_Main>h3 {
+        text-shadow: none;
+    }
+
+    .sidebar_Main>h3 {
+        text-shadow: none;
+        color: #fff;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+  
+
+    .piggy {
+        color: #cc167a;
+    }
+
+    .Row1_innerDiv, .Row2_innerDiv {
+        background: transparent;
+        border: 0;
+        box-shadow: none;
+        width: 190px;
+    }
+
+    .container .row {
+        background: rgb(6 1 14 / 59%);
+        margin: 0 auto;
+        max-width: 800px;
+    }
+
+    .inputComp_Main, .inputComp_Main_container {
+        border: 0;
+        background: transparent !important;
+        background-color: transparent;
+    }
+
+    #root > div > div > div.col-12.bodyy.col-md-10 > div:nth-child(2) {
+        margin-top: 50px;
+    }
+
+    button.btn {
+        background: linear-gradient( 
+    45deg
+     , #451248, #751663);
+        border: 0;
+        outline: 0;
+        padding: 20px 50px;
+        transition: all 0.2s ease-in-out;
+    }
+
+    button.btn:hover, button.btn:active, button.btn:focus {
+        transform: scale(1.05);
+    }
+
+    #root > div > div > div.col-12.bodyy.col-md-10 > div:nth-child(2) > div > div {
+        padding-top: 30px;
+    }
+
+    #root > div > div > div.col-12.bodyy.col-md-10 > div:nth-child(4) > div > div > div {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .inputComp_Main {
+        border: 0 !important;
+    }
+
+    .lastDiv_1>a>p:hover {
+        color: #f944a8;
+    }
+
+    .Navbar_Main>h1 {
+        color: #cc167a;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+    }
+
+    span.wallet.text-truncate {
+        width: auto;
+    }
