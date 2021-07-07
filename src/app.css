@@ -122,6 +122,12 @@ scrollbar-color: black!important;
         padding: 20px 50px;
         transition: all 0.2s ease-in-out;
     }
+    
+    @media (max-width: 880px) {
+        button.btn {
+            padding: 8px 16px;
+        }
+    }
 
     button.btn:hover, button.btn:active, button.btn:focus {
         transform: scale(1.05);
