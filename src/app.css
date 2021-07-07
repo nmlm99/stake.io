@@ -159,3 +159,9 @@ scrollbar-color: black!important;
     span.wallet.text-truncate {
         width: auto;
     }
+
+    @media (max-width: 880px) {
+        span.wallet.text-truncate {
+            max-width: 100px;
+        }
+    }
