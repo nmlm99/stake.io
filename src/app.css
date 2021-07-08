@@ -174,11 +174,14 @@ scrollbar-color: black!important;
         .wallet0 {
             font-size: 12px;
             float: right;
+            text-align: right;
         }
     }
     @media (max-width: 880px) {
         .wallet-wrap {
+            display: flex;
             max-width: 200px;
+            flex-direction: column;
         }
     }
 
