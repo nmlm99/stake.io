@@ -173,6 +173,7 @@ scrollbar-color: black!important;
         }
         .wallet0 {
             font-size: 12px;
+            float: right;
         }
     }
     @media (max-width: 880px) {
