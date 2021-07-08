@@ -239,10 +239,10 @@ function InputComp() {
                   </div>
                   <hr />
                   <div className="inpo_Main">
-                    <div className="upperBtnPair">
+                    {/* <div className="upperBtnPair">
                       <button className="btn btn-success" onClick={stake}>STAKE</button>
                       <button className="btn btn-success" onClick={unstake}>UNSTAKE</button>
-                    </div>
+                    </div> */}
                     <div className="input_div">
                       <input className="w-100" type="text" name="" id="" onChange={(e) => { setNumberofTokens(e.target.value) }} />
                     </div>
