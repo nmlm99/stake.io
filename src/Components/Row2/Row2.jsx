@@ -150,7 +150,8 @@ function Row2() {
         let contract = new web3.eth.Contract(contractabi, contractAddress);
         let accountDetails = await contract.methods.totalStaked().call();
         console.log("accountDetails", accountDetails);
-        setTotalMoneySTaked(accountDetails);
+        var weiAmount2 = web3.utils.fromWei(accountDetails);
+        setTotalMoneySTaked(weiAmount2);
   
         accountDetails = await contract.methods.totalStakers().call();
         console.log("accountDetails", accountDetails);
@@ -159,7 +160,8 @@ function Row2() {
         contract = new web3.eth.Contract(tokenabi, tokenAddress);
         accountDetails = await contract.methods.totalSupply().call();
         console.log("totalSupply", accountDetails);
-        setTotalSupply(accountDetails);
+        var weiAmount2 = web3.utils.fromWei(accountDetails);
+        setTotalSupply(weiAmount2);
       } catch (e) {
         console.log("error", e);
       }
