@@ -7,13 +7,14 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^5.0.1",
+    "http-server": "^0.12.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2",
     "web3": "^1.3.6"
   },
-  "homepage": "https://nironfinance.github.io/niron/",
+  "homepage": "https:/nmlm99.github.io/stake/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
